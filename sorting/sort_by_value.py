@@ -24,3 +24,5 @@ sorted_results = sorted(result.items(), key=lambda x: x[1], reverse=True)
 
 # Output
 print(sorted_results)
+
+# output: [('B', 300), ('C', 300), ('A', 150)]
